@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.nav-bar{
+    color: white;
+}
+
+.nav-bar-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #380808, #6b1111);
+    padding: 10px;
+    font-family: "Roboto";
+}
+
+.nav-options-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.nav-icon{
+    color: #fff;
+}
+
+.nav-icon-card{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.nav-img {
+    width: 50px;
+    border-radius: 60px;
+    margin-left: 20px;
+    
+}
+
+.nav-options {
+    list-style: None;
+    color: #fff;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.visible {
+    display: none;
+}
+@media all and (max-width: 767px){
+    .nav-options-card{
+        background-image: linear-gradient(to right, #380808, #6b1111);
+    }
+    .visible2{
+        display: none;
+    }
+}
+@media all and (min-width: 768px){
+    #btn{
+        display: none;
+    }
+    .nav-icon-card{
+        width: 60px;
+    }
+    .nav-options-card1{
+        display: flex;
+    }
+    .visible2{
+        display: flex;
+    }
+}
+
+.home-part {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    background-image: url("https://img.freepik.com/free-photo/photo-table-with-	traditional-indian-food-celebrate-diwali_125540-3655.jpg?t=st=1698394894~exp=1698398494~hmac=1db8220d87e7ca78edbd4fef1376feaf0471c7ab9104f628e98c1fd33123dbb2&w=826");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+
+}
+
+.home-h1 {
+    margin: 0px;
+    font-size: 100px;
+}
+
+.home-content {
+    
+}
+
+.home-p {
+    font-size: 20px;
+
+}
+
+.home-h1 {
+    font-size: 30px;
+    padding: 0px;
+}
+
+@media all and (max-width: 767px){
+    .home-part{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.products-part {
+    background-color: #380808;
+    padding: 20px;
+    color: #fff;
+}
+
+.product-h1{
+    font-size: large;
+    margin: 20px;
+}
+
+.product-main-h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.product-card {
+    background-color: #811f1f;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.products-align{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-price{
+    font-size: large;
+    font-weight: 400;
+}
+
+.about-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #380808;
+    padding: 20px;
+    
+}
+
+.about-content {
+    color: #fff;
+    justify-content: flex-start;
+    align-self: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.about-img{
+    width: 300px;
+}
+
+.about-img-card{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-self: center;
+}
+
+.about-h1{
+    font-size: large;
+    font-weight: bold;
+}
+
+@media all and (min-width: 768px){
+    .about-part{
+        flex-direction: row;
+    }
+}
+
+.contactus-part{
+    
+    background-color: #380808;
+}
+
+.contactus-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(80, 45, 45);
+    
+    padding: 20px;
+    
+}
+#input{
+    width: 100%;
+    margin: 10px;
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+    border-bottom:2px solid #fff;
+}
+#input::placeholder{
+    color: #fff;
+}
+
+.contactus-info{
+    color: #fff;
+    background-color: rgb(80, 45, 45);
+    padding: 20px;
+}
+
+#contactus-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus-info-h1{
+    color: #fff;
+    font-size: large;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.contactus-card{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #380808;
+}
+
+.footer-icon{
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to right, #811f81, #6b1111);
+    background-color: #811f1f;
+    border-radius: 60px;
+}
