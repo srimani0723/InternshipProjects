@@ -6,11 +6,13 @@ body{
 .bg{
      background-image: url('https://img.freepik.com/free-photo/plants-branches-fog_181624-3734.jpg?w=740&t=st=1699117705~exp=1699118305~hmac=77f91dc8384b45b45388fd1e663f18547832ccae3f580aea155d64129c03e1e8');
      background-size: cover;
-     height: 100vh;
+     min-height: 100vh;
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
 }
 
 .main-h1{
