@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/1c8ee7cda6.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div class="bg">
+          <div class="form-container">
+               <h1 class="main-h1">Registration</h1>
+               <form id="myForm" class="">
+                    <div class=" name-box"> 
+                         <label for="fname" class="labels ">Full Name</label>
+                         <input type="text" class="ip" id="fname" placeholder="Enter your full name">
+                         <p class="error-msg" id="nameerrmsg"></p>
+                    </div>
+                    <div class="ip-box"> 
+                         <label for="username" class="labels ">username</label>
+                         <input type="text" class="ip" id="username" placeholder="Enter your full name">
+                         <p class="error-msg" id="usernameerrmsg"></p>
+                    </div>
+                    <div class=" ip-box"> 
+                         <label for="email" class="labels ">Email</label>
+                         <input type="text" class="ip" id="email" placeholder="Enter your email address">
+                         <p class="error-msg" id="emailerrmsg"></p>
+                    </div>
+                    <div class=" gender-box">
+                         <h1 class="labels">Gender</h1>
+                         <div>
+                              <input type="radio" name="name" value="Male" id="male" class="radioip" checked>
+                              <label for="male" class="labels">Male</label>
+                              <input type="radio" name="name" value="Female" id="female" class="radioip">
+                              <label for="female" class="labels">Female</label>
+                         </div>
+                    </div>
+                    <div class=" ip-box"> 
+                         <label for="psd" class="labels ">Password</label>
+                         <input type="password" class="ip" id="psd" placeholder="Enter new password">
+                         <p class="error-msg" id="passerrmsg"></p>
+                    </div>
+                    <div class=" ip-box"> 
+                         <label for="cpsd" class="labels ">Confirm Password</label>
+                         <input type="password" class="ip" id="cpsd" placeholder="Enter password again">
+                         <p class="error-msg" id="cpasserrmsg"></p>
+                    </div>
+                    <div class="w-100 subbtn">
+                         <button type="submit" class="btn btn-success m-1 " id="subbtn">Submit</button>
+                    </div>
+               </form>
+               <div id="success" class="text-center success d-none">
+                    <i class="fa fa-check icon"></i>
+                    <h1 class="">Success</h1>
+               </div>
+          </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
